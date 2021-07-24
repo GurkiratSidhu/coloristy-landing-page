@@ -1,14 +1,18 @@
 import "./App.css";
 import Nav from "./Nav";
 import Header from "./Header";
+import Toggle from "./toggle";
+import { ThemeProvider } from "./themeContext";
 
 function App() {
 	return (
-		<div className="App">
+		<div className="transition-all duration-1000 App dark:bg-gray-800">
 			<>
-				<Nav />
-
-				<Header />
+				<ThemeProvider>
+					<Nav />
+					<Toggle />
+					<Header />
+				</ThemeProvider>
 			</>
 		</div>
 	);

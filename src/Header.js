@@ -6,18 +6,18 @@ function Header() {
 		<>
 			<section className="flex flex-col items-center md:flex-row justify-evenly">
 				<div className="p-2">
-					<p className="hidden text-6xl font-bold leading-snug text-left md:flex mt-14">
+					<p className="hidden text-6xl font-bold leading-snug text-left dark:text-white md:flex mt-14">
 						Design, <br></br> Development, <br></br> and identity for <br></br>
 						your product.
 					</p>
-					<p className="flex text-5xl font-bold leading-snug text-left md:hidden mt-14">
+					<p className="flex text-5xl font-bold leading-snug text-left dark:text-white md:hidden mt-14">
 						Design, Development, and identity for your product.
 					</p>
 
 					<p className="flex mt-10 mb-5">
 						<a
 							href="/"
-							className="text-2xl font-bold text-blue-700 hover:text-blue-500 bg-auro "
+							className="text-3xl font-bold text-red-500 dark:text-red-500 dark:text-white hover:text-blue-500 bg-auro "
 						>
 							Let's create something together.
 						</a>{" "}

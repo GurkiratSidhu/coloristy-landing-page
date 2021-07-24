@@ -2,12 +2,14 @@ import React from "react";
 
 function Nav() {
 	return (
-		<header>
-			<nav className="container flex items-center py-4 mt-4 sm:mt-8">
+		<header className="">
+			<nav className="container flex items-center py-4 mt-4 sm:mt-8 ">
 				<div className="p-1">
-					<h1 className="pl-8 text-3xl font-bold text-gray-800 ">Coloristy.</h1>
+					<h1 className="pl-1 text-3xl font-bold text-gray-800 dark:text-white ">
+						Coloristy.
+					</h1>
 				</div>
-				<ul className="items-center justify-end flex-1 hidden gap-12 text-base text-gray-800 uppercase md:flex">
+				<ul className="items-center justify-end flex-1 hidden gap-12 text-base text-gray-800 uppercase dark:text-white md:flex">
 					<li>
 						<a href="/" className="hover:text-gray-400">
 							Services
@@ -35,7 +37,7 @@ function Nav() {
 						Contact Us
 					</button>
 				</ul>
-				<div className="flex justify-end flex-1 md:hidden">
+				<div className="flex justify-end flex-1 md:hidden dark:text-white">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						className="w-6 h-6"
