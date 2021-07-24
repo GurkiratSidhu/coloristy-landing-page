@@ -32,7 +32,7 @@ function Nav() {
 					</li>
 					<button
 						type="button"
-						className="px-4 py-2 font-medium text-white uppercase bg-red-500 rounded-full text-m text-bold hover:bg-red-600"
+						className="px-4 py-2 font-medium text-white uppercase bg-red-500 rounded-full dark:text-black dark:bg-yellow-300 text-m text-bold hover:bg-red-600"
 					>
 						Contact Us
 					</button>

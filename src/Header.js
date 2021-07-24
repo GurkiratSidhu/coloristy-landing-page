@@ -17,7 +17,7 @@ function Header() {
 					<p className="flex mt-10 mb-5">
 						<a
 							href="/"
-							className="text-2xl font-bold text-left text-red-500 dark:text-red-500 dark:text-white hover:text-blue-500 bg-auro "
+							className="text-2xl font-bold text-left text-red-500 dark:text-yellow-300 dark:text-red-500 dark:text-white hover:text-blue-500 bg-auro "
 						>
 							Let's create something together.
 						</a>{" "}
