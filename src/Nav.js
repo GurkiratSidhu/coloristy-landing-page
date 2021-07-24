@@ -3,7 +3,7 @@ import React from "react";
 function Nav() {
 	return (
 		<header className="">
-			<nav className="container flex items-center py-4 pt-8 mx-2">
+			<nav className="container flex items-center py-4 pt-8 mx-4">
 				<div className="p-1">
 					<h1 className="pl-1 text-3xl font-bold text-gray-800 dark:text-white ">
 						Coloristy.
@@ -37,7 +37,7 @@ function Nav() {
 						Contact Us
 					</button>
 				</ul>
-				<div className="flex justify-end flex-1 md:hidden dark:text-white">
+				<div className="flex justify-end flex-1 mx-4 md:hidden dark:text-white">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						className="w-6 h-6"
