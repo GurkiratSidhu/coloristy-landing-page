@@ -3,7 +3,7 @@ import React from "react";
 function Nav() {
 	return (
 		<header className="">
-			<nav className="container flex items-center py-4 mt-4 sm:mt-8 ">
+			<nav className="container flex items-center py-4 pt-8">
 				<div className="p-1">
 					<h1 className="pl-1 text-3xl font-bold text-gray-800 dark:text-white ">
 						Coloristy.
