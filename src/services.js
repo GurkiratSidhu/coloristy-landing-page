@@ -14,12 +14,12 @@ function services() {
 						into elegant designs, awesome experiences and catchy brands.
 					</p>
 				</div>
-				<div className="flex flex-wrap my-8 justify-evenly md:flex-row icons md:justify-evenly ">
+				<div className="flex flex-wrap gap-10 my-8 justify-evenly md:flex-row icons md:justify-between ">
 					<div className="">
 						<div className="text-red-500 fill-current dark:text-yellow-300">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="w-40 h-40"
+								className="w-30 h-30"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -44,7 +44,7 @@ function services() {
 						<div className="text-red-500 fill-current dark:text-yellow-300">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="w-40 h-40"
+								className="w-24 h-24"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -68,7 +68,7 @@ function services() {
 						<div className="text-red-500 fill-current dark:text-yellow-300">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="w-40 h-40"
+								className="w-24 h-24"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -93,7 +93,7 @@ function services() {
 						<div className="text-red-500 fill-current dark:text-yellow-300">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="w-40 h-40"
+								className="w-24 h-24"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -117,7 +117,7 @@ function services() {
 						<div className="text-red-500 fill-current dark:text-yellow-300">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								className="w-40 h-40"
+								className="w-24 h-24"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
