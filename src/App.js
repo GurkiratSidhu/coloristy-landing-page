@@ -2,6 +2,7 @@ import "./App.css";
 import Nav from "./Nav";
 import Header from "./Header";
 import Services from "./services";
+import Footer from "./footer";
 
 import { ThemeProvider } from "./themeContext";
 
@@ -15,6 +16,7 @@ function App() {
 
 						<Header />
 						<Services />
+						<Footer />
 					</div>
 				</ThemeProvider>
 			</>

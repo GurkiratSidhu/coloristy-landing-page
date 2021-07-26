@@ -3,13 +3,13 @@ import React from "react";
 function services() {
 	return (
 		<div>
-			<div className="flex flex-col text-left dark:text-white">
+			<div className="flex flex-col p-6 mt-10 text-left bg-gray-100 dark:bg-gray-700 dark:text-white">
 				<div className="text">
-					<h2 className="text-2xl font-medium uppercase">Services</h2>
-					<h1 className="my-8 text-5xl font-bold">
+					<h2 className="text-xl font-medium uppercase">Services</h2>
+					<h1 className="my-8 text-4xl font-bold">
 						We build modern experiences
 					</h1>
-					<p className="text-2xl">
+					<p className="text-xl md:w-2/3">
 						Coloristy can help visualize even the craziest ideas converting them
 						into elegant designs, awesome experiences and catchy brands.
 					</p>
