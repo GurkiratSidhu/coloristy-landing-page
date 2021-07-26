@@ -1,7 +1,7 @@
 import "./App.css";
 import Nav from "./Nav";
 import Header from "./Header";
-import Toggle from "./toggle";
+
 import { ThemeProvider } from "./themeContext";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 			<>
 				<ThemeProvider>
 					<Nav />
-					<Toggle />
+
 					<Header />
 				</ThemeProvider>
 			</>

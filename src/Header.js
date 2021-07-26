@@ -4,23 +4,24 @@ import desk from "./Images/desk.jpg";
 function Header() {
 	return (
 		<>
-			<section className="flex flex-col items-center md:flex-row justify-evenly">
-				<div className="p-2">
-					<p className="hidden text-6xl font-bold leading-snug text-left dark:text-white md:flex mt-14">
+			<section className="flex flex-col md:items-center md:flex-row justify-evenly">
+				<div className="pr-10">
+					<p className="hidden text-6xl font-bold text-left dark:text-white md:flex mt-14">
 						Design, <br></br> Development, <br></br> and identity for <br></br>
 						your product.
 					</p>
-					<p className="flex text-4xl font-bold leading-snug text-left dark:text-white md:hidden mt-14">
-						Design, Development, and identity for your product.
+					<p className="flex ml-10 text-6xl font-bold text-left dark:text-white md:hidden mt-14">
+						Design,<br></br>Development,<br></br>and identity for<br></br>your
+						product.
 					</p>
 
-					<p className="flex mt-10 mb-5">
+					<p className="flex mt-10 mb-5 ml-10 md:ml-0">
 						<a
 							href="/"
 							className="text-2xl font-bold text-left text-red-500 dark:text-yellow-300 dark:text-red-500 dark:text-white hover:text-blue-500 bg-auro "
 						>
 							Let's create something together.
-						</a>{" "}
+						</a>
 					</p>
 				</div>
 
