@@ -1,6 +1,7 @@
 import "./App.css";
 import Nav from "./Nav";
 import Header from "./Header";
+import Services from "./services";
 
 import { ThemeProvider } from "./themeContext";
 
@@ -9,9 +10,12 @@ function App() {
 		<div className="transition-all duration-1000 App dark:bg-gray-800">
 			<>
 				<ThemeProvider>
-					<Nav />
+					<div className="mx-4 md:mx-14 lg:mx-28 xl:mx-56 ">
+						<Nav />
 
-					<Header />
+						<Header />
+						<Services />
+					</div>
 				</ThemeProvider>
 			</>
 		</div>

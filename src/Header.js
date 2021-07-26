@@ -6,16 +6,16 @@ function Header() {
 		<>
 			<section className="flex flex-col md:items-center md:flex-row justify-evenly">
 				<div className="pr-10">
-					<p className="hidden text-6xl font-bold text-left dark:text-white md:flex mt-14">
+					<p className="hidden text-6xl font-bold text-left align-left dark:text-white md:flex mt-14">
 						Design, <br></br> Development, <br></br> and identity for <br></br>
 						your product.
 					</p>
-					<p className="flex ml-10 text-6xl font-bold text-left dark:text-white md:hidden mt-14">
+					<p className="flex text-6xl font-bold text-left dark:text-white md:hidden mt-14">
 						Design,<br></br>Development,<br></br>and identity for<br></br>your
 						product.
 					</p>
 
-					<p className="flex mt-10 mb-5 ml-10 md:ml-0">
+					<p className="flex mt-10 mb-5 ">
 						<a
 							href="/"
 							className="text-2xl font-bold text-left text-red-500 dark:text-yellow-300 dark:text-red-500 dark:text-white hover:text-blue-500 bg-auro "

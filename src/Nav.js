@@ -4,9 +4,9 @@ import Toggle from "./toggle";
 function Nav() {
 	return (
 		<header className="">
-			<nav className="flex items-center justify-between py-4 pt-4 mx-4 ">
+			<nav className="flex items-center justify-between py-4 pt-4 ">
 				<div className="p-1">
-					<h1 className="pl-1 text-3xl font-bold text-gray-800 dark:text-white ">
+					<h1 className="text-3xl font-bold text-gray-800 dark:text-white">
 						Coloristy.
 					</h1>
 				</div>
