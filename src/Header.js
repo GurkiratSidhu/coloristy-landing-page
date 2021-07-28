@@ -6,7 +6,7 @@ function Header() {
 		<>
 			<section className="flex flex-col md:items-center md:flex-row justify-evenly">
 				<div className="pr-10">
-					<p className="hidden text-5xl font-bold text-left lg:text-8xl align-left dark:text-white md:flex mt-14">
+					<p className="hidden text-4xl font-bold text-left md:text-4xl lg:text-5xl xl:text-6xl align-left dark:text-white md:flex mt-14">
 						Design, <br></br> Development, <br></br> and identity for <br></br>
 						your product.
 					</p>

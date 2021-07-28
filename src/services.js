@@ -14,7 +14,7 @@ function services() {
 						into elegant designs, awesome experiences and catchy brands.
 					</p>
 				</div>
-				<div class="flex flex-wrap gap-y-8   sm:py-10 overflow-hidden md:justify-evenly">
+				<div class="flex mt-8 flex-wrap gap-y-8 sm:py-10 overflow-hidden md:justify-evenly">
 					<div className="w-1/2 overflow-hidden md:w-1/6 lg:w-1/5 xl:w-1/6">
 						<div className="">
 							<div className="text-red-500 fill-current dark:text-yellow-300">

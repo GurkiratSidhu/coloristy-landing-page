@@ -11,7 +11,7 @@ function App() {
 		<div className="transition-all duration-1000 App dark:bg-gray-800">
 			<>
 				<ThemeProvider>
-					<div className="mx-4 md:mx-14 lg:mx-28 xl:mx-56 ">
+					<div className="mx-4 md:mx-14 lg:mx-28 xl:mx-96 ">
 						<Nav />
 
 						<Header />

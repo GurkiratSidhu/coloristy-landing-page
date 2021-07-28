@@ -80,12 +80,12 @@ function footer() {
 					/>
 				</form>
 			</div>
-			<div className="pl-6 mt-10 text-left text-white bg-gray-900 md:bg-white md:text-black md:mx-10 md:order-1 md:w-1/3 dark:bg-gray-700 ">
+			<div className="pl-4 pr-10 mt-10 text-left text-white bg-gray-900 md:pl-0 md:bg-white md:text-black md:order-1 md:w-1/3 dark:bg-gray-700">
 				<div>
 					<h2 className="py-10 text-4xl font-bold ">Coloristy</h2>
 
 					<h2 className="pt-6 text-base uppercase">Contacts</h2>
-					<h2 className="pt-2 text-2xl font-base">mail@coloristy.com</h2>
+					<h2 className="pt-2 text-2xl font-medium">mail@coloristy.com</h2>
 				</div>
 
 				<div className="pb-10 social">
