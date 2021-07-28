@@ -2,8 +2,8 @@ import React from "react";
 
 function footer() {
 	return (
-		<div>
-			<div className="mt-10 space-y-6 text-left text-black dark:text-white">
+		<div className="flex-row md:flex">
+			<div className="mt-10 space-y-5 text-left text-black md:mx-10 md:order-2 md:w-2/3 dark:text-white">
 				<h3 className="text-base text-xl uppercase">Hire Us</h3>
 				<h2 className="text-4xl font-bold">A project with Coloristy?</h2>
 				<h3 className="text-base text-xl font-semibold ">Services</h3>
@@ -28,7 +28,7 @@ function footer() {
 						Webflow
 					</button>
 				</div>
-				<h3 className="text-base text-xl font-semibold ">Budget in USD</h3>
+				<h3 className="pt-6 text-base text-xl font-semibold ">Budget in USD</h3>
 				<div className="flex gap-1 pills">
 					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
 						5k-10k
@@ -41,25 +41,28 @@ function footer() {
 					</button>
 				</div>
 
-				<form className="py-2 space-y-10 ">
-					<label className="block">
-						<input
-							className="w-full px-2 py-1 pb-4 mr-3 text-xl font-bold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
-							type="email"
-							placeholder="Name"
-							inputmode="text"
-							required
-						/>
-					</label>
-					<label className="block">
-						<input
-							className="w-full px-2 py-1 pb-4 mr-3 text-xl font-bold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
-							type="email"
-							placeholder="Email"
-							inputmode="email"
-							required
-						/>
-					</label>
+				<form className="py-2 pt-8 space-y-10 ">
+					<div className="space-y-8 md:space-y-0 md:flex md:justify-between ">
+						<label className="block">
+							<input
+								className="w-full px-2 py-1 pb-4 mr-3 text-xl font-bold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none md:w-80 dark:placeholder-white focus:outline-none"
+								type="email"
+								placeholder="Name"
+								inputmode="text"
+								required
+							/>
+						</label>
+						<label className="block">
+							<input
+								className="w-full px-2 py-1 pb-4 mr-3 text-xl font-bold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none md:w-80 dark:placeholder-white focus:outline-none"
+								type="email"
+								placeholder="Email"
+								inputmode="email"
+								required
+							/>
+						</label>
+					</div>
+
 					<label className="block">
 						<input
 							className="w-full px-2 py-1 pb-4 mr-3 text-xl font-bold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
@@ -72,12 +75,12 @@ function footer() {
 
 					<input
 						type="submit"
-						className="w-full py-3 text-white bg-red-500 rounded-md dark:bg-yellow-300"
+						className="w-full py-3 text-2xl text-white bg-red-500 rounded-md md:w-1/3 dark:text-black dark:bg-yellow-300"
 						value="Send"
 					/>
 				</form>
 			</div>
-			<div className="pl-6 mt-10 text-left text-white bg-black ">
+			<div className="pl-6 mt-10 text-left text-white bg-gray-900 md:bg-white md:text-black md:mx-10 md:order-1 md:w-1/3 dark:bg-gray-700 ">
 				<div>
 					<h2 className="py-10 text-4xl font-bold ">Coloristy</h2>
 
