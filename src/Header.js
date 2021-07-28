@@ -10,7 +10,7 @@ function Header() {
 						Design, <br></br> Development, <br></br> and identity for <br></br>
 						your product.
 					</p>
-					<p className="flex text-6xl font-bold text-left dark:text-white md:hidden mt-14">
+					<p className="flex text-5xl font-bold text-left dark:text-white md:hidden mt-14">
 						Design,<br></br>Development,<br></br>and identity for<br></br>your
 						product.
 					</p>
