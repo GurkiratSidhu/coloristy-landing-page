@@ -3,7 +3,7 @@ import React from "react";
 function services() {
 	return (
 		<div>
-			<div className="flex flex-col p-6 mt-10 text-left bg-gray-100 dark:bg-gray-700 dark:text-white">
+			<div className="flex flex-col p-6 mt-10 text-left bg-gray-100 dark:text-white dark:bg-gray-700">
 				<div className="text">
 					<h2 className="text-xl font-medium uppercase">Services</h2>
 					<h1 className="my-8 text-4xl font-bold">

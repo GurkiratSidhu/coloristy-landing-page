@@ -5,56 +5,56 @@ function footer() {
 		<div className="flex-row md:flex">
 			<div className="mt-10 space-y-5 text-left text-black md:mx-10 md:order-2 md:w-2/3 dark:text-white">
 				<h3 className="text-base text-xl uppercase">Hire Us</h3>
-				<h2 className="text-4xl font-bold">A project with Coloristy?</h2>
+				<h2 className="text-5xl font-bold">A project with Coloristy?</h2>
 				<h3 className="text-base text-xl font-semibold ">Services</h3>
 
-				<div className="space-x-1 space-y-2 pills">
-					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
+				<div className="space-x-1 space-y-2 text-lg pills font-base">
+					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
 						Interface Design
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
+					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
 						Illustration
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
+					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
 						Identity
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
+					<button class="bg-gray-200 hover:bg-gray-400 text-black py-2 px-4 rounded-full">
 						Development
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
+					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
 						Animation
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
+					<button class="bg-gray-200 hover:bg-gray-400 text-black py-2 px-4 rounded-full">
 						Webflow
 					</button>
 				</div>
 				<h3 className="pt-6 text-base text-xl font-semibold ">Budget in USD</h3>
-				<div className="flex gap-1 pills">
-					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
+				<div className="flex gap-1 text-lg pills font-base">
+					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
 						5k-10k
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
+					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
 						10k-50k
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black font-semibold py-2 px-4 rounded-full">
+					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
 						more than 50k
 					</button>
 				</div>
 
 				<form className="py-2 pt-8 space-y-10 ">
-					<div className="space-y-8 md:space-y-0 md:flex md:justify-between ">
-						<label className="block">
+					<div className="space-y-8 md:space-x-16 md:space-y-0 md:flex md:justify-between ">
+						<label className="block w-full ">
 							<input
-								className="w-full px-2 py-1 pb-4 mr-3 text-xl font-bold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none md:w-80 dark:placeholder-white focus:outline-none"
+								className="w-full px-2 py-1 pb-4 text-2xl font-semibold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
 								type="email"
 								placeholder="Name"
 								inputmode="text"
 								required
 							/>
 						</label>
-						<label className="block">
+						<label className="block w-full">
 							<input
-								className="w-full px-2 py-1 pb-4 mr-3 text-xl font-bold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none md:w-80 dark:placeholder-white focus:outline-none"
+								className="w-full px-2 py-1 pb-4 text-2xl font-semibold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
 								type="email"
 								placeholder="Email"
 								inputmode="email"
@@ -65,7 +65,7 @@ function footer() {
 
 					<label className="block">
 						<input
-							className="w-full px-2 py-1 pb-4 mr-3 text-xl font-bold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
+							className="w-full px-2 py-1 pb-4 mr-3 text-2xl font-semibold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
 							type="email"
 							placeholder="Project details (optional)"
 							inputmode="text"
@@ -80,7 +80,7 @@ function footer() {
 					/>
 				</form>
 			</div>
-			<div className="pl-4 pr-10 mt-10 text-left text-white bg-gray-900 md:pl-0 md:bg-white md:text-black md:order-1 md:w-1/3 dark:bg-gray-700">
+			<div className="pl-4 pr-10 mt-10 text-left text-white bg-gray-900 dark:text-white md:pl-0 md:bg-white md:text-black md:order-1 md:w-1/3 dark:bg-gray-700">
 				<div>
 					<h2 className="py-10 text-4xl font-bold ">Coloristy</h2>
 

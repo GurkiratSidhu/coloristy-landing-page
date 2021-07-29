@@ -11,8 +11,8 @@ function Nav() {
 					</h1>
 				</div>
 				<div className="flex flex-row items-center right side stuff">
-					<div className="items-center list and button">
-						<ul className="items-center hidden gap-8 text-base text-gray-800 uppercase dark:text-white md:flex">
+					<div className="items-center list and button ">
+						<ul className="items-center hidden text-lg text-gray-800 uppercase gap-14 dark:text-white md:flex">
 							<li>
 								<a href="/" className="hover:text-gray-400">
 									Work
