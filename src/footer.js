@@ -47,7 +47,7 @@ function footer() {
 					<div className="space-y-8 md:space-x-16 md:space-y-0 md:flex md:justify-between ">
 						<label className="block w-full ">
 							<input
-								className="w-full px-2 py-1 pb-4 text-2xl font-semibold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
+								className="w-full px-2 py-1 pb-4 text-2xl font-semibold leading-tight text-gray-700 placeholder-black bg-transparent border-b border-gray-500 appearance-none dark:placeholder-white focus:outline-none"
 								type="email"
 								placeholder="Name"
 								inputmode="text"
@@ -56,7 +56,7 @@ function footer() {
 						</label>
 						<label className="block w-full">
 							<input
-								className="w-full px-2 py-1 pb-4 text-2xl font-semibold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
+								className="w-full px-2 py-1 pb-4 text-2xl font-semibold leading-tight text-gray-700 placeholder-black bg-transparent border-b border-gray-500 appearance-none dark:placeholder-white focus:outline-none"
 								type="email"
 								placeholder="Email"
 								inputmode="email"
@@ -67,7 +67,7 @@ function footer() {
 
 					<label className="block">
 						<input
-							className="w-full px-2 py-1 pb-4 mr-3 text-2xl font-semibold leading-tight text-gray-700 placeholder-black bg-transparent border-b-2 appearance-none dark:placeholder-white focus:outline-none"
+							className="w-full px-2 py-1 pb-4 mr-3 text-2xl font-semibold leading-tight text-gray-700 placeholder-black bg-transparent border-b border-gray-500 appearance-none dark:placeholder-white focus:outline-none"
 							type="email"
 							placeholder="Project details (optional)"
 							inputmode="text"
