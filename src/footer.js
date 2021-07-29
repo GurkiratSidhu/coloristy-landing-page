@@ -6,37 +6,39 @@ function footer() {
 			<div className="mt-10 space-y-5 text-left text-black md:mx-10 md:order-2 md:w-2/3 dark:text-white">
 				<h3 className="text-base text-xl uppercase">Hire Us</h3>
 				<h2 className="text-5xl font-bold">A project with Coloristy?</h2>
-				<h3 className="text-base text-xl font-semibold ">Services</h3>
+				<h3 className="text-base text-2xl font-semibold ">Services</h3>
 
 				<div className="space-x-1 space-y-2 text-lg pills font-base">
-					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
+					<button class="bg-gray-100 hover:bg-gray-200 text-black  py-2 px-4 rounded-full">
 						Interface Design
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
+					<button class="bg-gray-100 hover:bg-gray-200 text-black  py-2 px-4 rounded-full">
 						Illustration
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
+					<button class="bg-gray-100 hover:bg-gray-200 text-black  py-2 px-4 rounded-full">
 						Identity
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black py-2 px-4 rounded-full">
+					<button class="bg-gray-100 hover:bg-gray-200 text-black py-2 px-4 rounded-full">
 						Development
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
+					<button class="bg-gray-100 hover:bg-gray-200 text-black  py-2 px-4 rounded-full">
 						Animation
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black py-2 px-4 rounded-full">
+					<button class="bg-gray-100 hover:bg-gray-200 text-black py-2 px-4 rounded-full">
 						Webflow
 					</button>
 				</div>
-				<h3 className="pt-6 text-base text-xl font-semibold ">Budget in USD</h3>
+				<h3 className="pt-6 text-base text-2xl font-semibold ">
+					Budget in USD
+				</h3>
 				<div className="flex gap-1 text-lg pills font-base">
-					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
+					<button class="bg-gray-100 hover:bg-gray-200 text-black  py-2 px-4 rounded-full">
 						5k-10k
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
+					<button class="bg-gray-100 hover:bg-gray-200 text-black  py-2 px-4 rounded-full">
 						10k-50k
 					</button>
-					<button class="bg-gray-200 hover:bg-gray-400 text-black  py-2 px-4 rounded-full">
+					<button class="bg-gray-100 hover:bg-gray-200 text-black  py-2 px-4 rounded-full">
 						more than 50k
 					</button>
 				</div>
@@ -80,7 +82,7 @@ function footer() {
 					/>
 				</form>
 			</div>
-			<div className="pl-4 pr-10 mt-10 text-left text-white bg-gray-900 dark:text-white md:pl-0 md:bg-white md:text-black md:order-1 md:w-1/3 dark:bg-gray-700">
+			<div className="pl-6 mt-10 text-left text-white bg-gray-900 dark:text-white md:bg-white md:text-black md:order-1 md:w-1/3 dark:bg-gray-700">
 				<div>
 					<h2 className="py-10 text-4xl font-bold ">Coloristy</h2>
 
